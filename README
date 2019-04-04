@@ -1,0 +1,40 @@
+Program Description
+
+sortedList is a templated, sorted, ordered list. It stores items in either
+ascending or descending order.
+
+Input/Output
+
+main.cpp contains a test program that demonstrates the functionality offered by
+this class. It does not require input to run, but will output to the terminal.
+
+Program Design
+
+This is implemented as a singly-linked structure; the list is a pointer to a
+node type, which contains a data item and a pointer to another node type. These 
+nodes are linked together by the pointers.
+Since the position an item is inserted into depends on how it compares to the
+currently-existing items, there is no sort algorithm being employed.
+
+Files
+
+file            function                description
+--------------------------------------------------------------------------------
+sortedList.h    sortedList, node        sortedList specification and implementation
+
+main.cpp        main                    main function
+
+makefile        n/a                     details for the make utility
+
+Program Testing
+
+This program was designed by drawing the logical view of the list and writing
+out every step of the methods. It was tested as it was developed, to be sure
+that the expected behavior was (or appeared to be) happening. Methods were
+tested individually with all possible cases; for example, insertItem was tested
+with no items, one item, and several items, and multiple insert positions were
+checked.
+
+Bugs
+
+No bugs are currently known to exist.
