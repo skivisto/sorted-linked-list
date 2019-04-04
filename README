@@ -1,5 +1,7 @@
-Every file in this repository was written for CSIS 352 at Minnesota State
-University Moorhead. It was the fourth assignment completed for this course.
+Every file in this repository was written for a CSIS 352 assignment at
+Minnesota State University Moorhead. As such, I did not write the main
+file. The code in sortedList.h was written by me to work with the
+provided main file.
 
 Program Description
 
