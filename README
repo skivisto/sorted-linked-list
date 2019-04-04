@@ -1,3 +1,6 @@
+Every file in this repository was written for CSIS 352 at Minnesota State
+University Moorhead. It was the fourth assignment completed for this course.
+
 Program Description
 
 sortedList is a templated, sorted, ordered list. It stores items in either
